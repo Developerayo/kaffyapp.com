@@ -1,0 +1,10 @@
+{
+  "installCommand": "install",
+   "buildCommand": "build",
+   "packages": ["packages/react", "packages/react-dom"],
+ "publishDirectory": {
+    "react": "build/node_modules/react",
+    "react-dom": "build/node_modules/react-dom"
+  },
+  "sandboxes": ["vanilla", "new", "/examples/kaffy"]
+}
